@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2022-10-15 08:25 AM
+4.0.4 (0575)
+7b4e5c9 (09-Dec-2021 9:57:12 AM)
+-->
+<scene title="New Project 171" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ff000000" totalTime="1649" fps="60" modifiedTime="1665802537570" amver="575" ffver="105" am="com.alightcreative.motion/4.0.4" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <media uri="content://media/external/video/media/672622" filename="lv_0_20221015080517.mp4" title="lv_0_20221015080517.mp4" type="video/mp4" duration="1625000" size="4512683" fps="60.01" orientation="0" infoUpdated="1665801816501" width="1920" height="1080" />
+  <shape id="6180958" label="lv_0_20221015080517.mp4" startTime="0" endTime="1640" fillType="media" fillVideo="content://media/external/video/media/672622" outTime="1625" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+    </transform>
+    <property name="size" type="vec2" value="960.000000,540.000000" />
+  </shape>
+  <shape id="6180959" label="RED EYES EFFECT " startTime="150" endTime="1649" fillType="color" s=".circle">
+    <transform>
+      <location value="1042.933472,426.587402,0.000000" />
+      <scale value="0.131742,0.131742" />
+      <opacity>
+        <kf t="-0.094730" v="1.000000" />
+        <kf t="0.183456" v="1.000000" />
+        <kf t="0.005337" v="0.000000" />
+        <kf t="0.794530" v="1.000000" />
+        <kf t="0.994663" v="0.000000" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.rays" locallyApplied="false">
+      <property name="strength" type="float" value="0.300000" />
+      <property name="intensity" type="float" value="3.830000" />
+      <property name="threshold" type="float" value="0.600000" />
+      <property name="thresholdColor" type="color" value="#ff000000" />
+      <property name="fillColor" type="color" value="#ffff0000" />
+      <property name="blend" type="float" value="1.000000" />
+      <property name="quality" type="float" value="150.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.fade" locallyApplied="true">
+      <property name="inTime" type="float" value="0.000000" />
+      <property name="outTime" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.blink2" locallyApplied="true">
+      <property name="freq" type="float" value="12.600000" />
+    </effect>
+    <property name="size" type="vec2" value="227.718506,100.000000" />
+  </shape>
+  <shape id="6180960" label="RED EYES EFFECT " startTime="150" endTime="1649" fillType="color" s=".circle">
+    <transform>
+      <location>
+        <kf t="0.005337" v="895.606812,425.588135,0.000000" />
+        <kf t="0.850567" v="894.126221,419.101318,0.000000" />
+      </location>
+      <scale value="0.131742,0.131742" />
+      <opacity>
+        <kf t="0.150100" v="1.000000" />
+        <kf t="0.005337" v="0.000000" />
+        <kf t="0.772515" v="1.000000" />
+        <kf t="0.994663" v="0.000000" />
+      </opacity>
+    </transform>
+    <effect id="com.alightcreative.effects.rays" locallyApplied="false">
+      <property name="strength" type="float" value="0.300000" />
+      <property name="intensity" type="float" value="3.830000" />
+      <property name="threshold" type="float" value="0.600000" />
+      <property name="thresholdColor" type="color" value="#ff000000" />
+      <property name="fillColor" type="color" value="#ffff0000" />
+      <property name="blend" type="float" value="1.000000" />
+      <property name="quality" type="float" value="150.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.fade" locallyApplied="true">
+      <property name="inTime" type="float" value="0.000000" />
+      <property name="outTime" type="float" value="0.500000" />
+    </effect>
+    <effect id="com.alightcreative.effects.blink2" locallyApplied="true">
+      <property name="freq" type="float" value="12.600000" />
+    </effect>
+    <property name="size" type="vec2" value="227.718506,100.000000" />
+  </shape>
+</scene>
